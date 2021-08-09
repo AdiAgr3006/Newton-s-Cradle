@@ -8,7 +8,6 @@ class Chain {
             bodyB: b2,
             pointB:{x:px, y:py},
             stiffness: 0.04,
-            length: 10
         }
 
         this.chain = Constraint.create(options);
